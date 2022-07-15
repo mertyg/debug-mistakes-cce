@@ -20,7 +20,7 @@ Here we aim to make the code as easy to use as possible, so that you could go ah
 ## Learning a concept bank
 First, you need to define a concept bank for your problem. In our experiments, we derive the Broden Concept Bank which consists of 170 concepts. <br>
 
-In `banks/resnet18_bank.pkl` we release the concept bank and concept statistics for a ResNet18. If you wish to train your own concept banks, you can use the script `learn_concepts.py`. 
+In `examples/resnet18_bank.pkl` we release the concept bank and concept statistics for a ResNet18. If you wish to train your own concept banks, you can use the script `learn_concepts.py`. 
 
 `````
 python learn_concepts.py --concept-data=/user/concept-folder/ --model-name resnet18 --C=0.001 --output-folder=banks/
