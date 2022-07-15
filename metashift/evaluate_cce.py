@@ -21,7 +21,7 @@ from concept_utils import conceptual_counterfactual, ConceptBank
 
 def config():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=str, default="bear-bird-cat-dog-elephant:dog(water):1.0")
+    parser.add_argument('--dataset', type=str, default="bear-bird-cat-dog-elephant:dog(water)")
     parser.add_argument('--out_dir', type=str, default='/oak/stanford/groups/jamesz/merty/cce')
     
     parser.add_argument('--model-path', type=str, default=None, 
